@@ -4,10 +4,11 @@ $brand-language: #B01302;
 .jumbotron {
 //  background: $brand-primary;
   color: white;
-  padding-bottom: 80px;
+  padding-bottom: 0px;
   position: relative;
-  padding-top: 80px;
+  padding-top: 0px;
   background-color: transparent;
+  margin-bottom: 0px;
 
   h1 {
     color: darken($brand-primary, 50%);

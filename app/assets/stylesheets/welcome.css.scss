@@ -2,6 +2,80 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 body {
+  #no1 {
+    .bg {
+      /* Set rules to fill background */
+      min-height: 500px;
+      min-width: 1024px;
+
+      /* Set up proportionate scaling */
+      width: 100%;
+      height: 100vh;
+
+      /* Set up positioning */
+      top: 0;
+      left: 0;
+      background-image: url('https://static.squarespace.com/static/53c827a3e4b00a63fc062eb5/t/53e162e7e4b0354da305ca8b/1407279847916/DSC07168.jpg');
+      background-position-y: 800px;
+      background-position-x: 0px;
+      display: table;
+      .container {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        h1, p{
+          color: darken(white, 99%);
+        }
+      }
+    }
+  }
+  #no2 {
+    background-image: image-url('bcg_slide-1.jpg');
+    /* Set rules to fill background */
+    min-height: 500px;
+    min-width: 1024px;
+
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: 100vh;
+    display: table;
+    h2 {
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+      color:dimgrey;
+      width: 100%;
+    }
+  }
+
+  #no3bg {
+    height: 100%;
+    width: 100%;
+    background-image: image-url('bcg_slide-2.jpg');
+    display: table;
+    h2 {
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+      color:dimgrey;
+      width: 100%;
+    }
+  }
+
+  #third {
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: table;
+    h2 {
+      //      top: 50%;
+      //      right: 50%;
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+    }
+  }
   img.bg {
     /* Set rules to fill background */
     min-height: 100%;
@@ -41,4 +115,31 @@ body {
   }
 }
 
+.bcg {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.hsContainer {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  opacity: 0;
+}
+.hsContent {
+  max-width: 450px;
+  margin: -150px auto 0 auto;
+  display: table-cell;
+  vertical-align: middle;
+  color: #ebebeb;
+  padding: 0 8%;
+  text-align: center
+}
 
