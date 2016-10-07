@@ -1,7 +1,14 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@font-face {
+  font-family: 'Lato';
+  src: font-url('Lato-Light.ttf') format('truetype');
+}
+
 body {
+  font-family: Lato, Arial, sans-serif;
+  color: darken(white, 99%);
   #no1 {
     .bg {
       /* Set rules to fill background */
@@ -18,14 +25,12 @@ body {
       background-image: url('https://static.squarespace.com/static/53c827a3e4b00a63fc062eb5/t/53e162e7e4b0354da305ca8b/1407279847916/DSC07168.jpg');
       background-position-y: 800px;
       background-position-x: 0px;
+      background-attachment: fixed;
       display: table;
       .container {
         display: table-cell;
         vertical-align: middle;
         text-align: center;
-        h1, p{
-          color: darken(white, 99%);
-        }
       }
     }
   }
@@ -34,31 +39,57 @@ body {
     /* Set rules to fill background */
     min-height: 500px;
     min-width: 1024px;
-
     /* Set up proportionate scaling */
     width: 100%;
-    height: 100vh;
+    height: 120vh;
     display: table;
     h2 {
       display: table-cell;
       vertical-align: middle;
       text-align: center;
-      color:dimgrey;
       width: 100%;
     }
   }
 
+.custom {
+  height: 100%;
+  width: 100%;
+  position:relative;
+  .content-white {
+    top: 50%;
+    left: 50%;
+    position:absolute;
+    background-color: white;
+    vertical-align: middle;
+    text-align: center;
+    padding:100px;
+    margin: -15% 0 0 -25%;
+    height: 30%;
+    width: 50%;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    h2 {
+      width: 100%;
+    }
+  }
+}
+
   #no3bg {
-    height: 100%;
-    width: 100%;
     background-image: image-url('bcg_slide-2.jpg');
+  }
+
+  #no4 {
+    height: 120vh;
+    width: 100%;
+    background-image: image-url('heart.jpg');
     display: table;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     h2 {
       display: table-cell;
       vertical-align: middle;
       text-align: center;
-      color:dimgrey;
-      width: 100%;
     }
   }
 
@@ -142,4 +173,7 @@ body {
   padding: 0 8%;
   text-align: center
 }
-
+.content-white {
+  margin: 50px;
+  display: inherit;
+}
