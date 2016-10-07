@@ -1,10 +1,17 @@
-$brand-primary: #532F8C;
+$brand-primary: white;
 $brand-language: #B01302;
 
 .jumbotron {
-  background: $brand-primary;
+//  background: $brand-primary;
   color: white;
   padding-bottom: 80px;
+  position: relative;
+  padding-top: 80px;
+  background-color: transparent;
+
+  h1 {
+    color: darken($brand-primary, 50%);
+  }
 
   .btn-primary {
     background: lighten($brand-primary, 20%);
@@ -15,13 +22,13 @@ $brand-language: #B01302;
   }
 
   p {
-    color: lighten($brand-primary, 50%);
+    color: darken($brand-primary, 50%);
     max-width: 75%;
     margin: 1em auto 2em;
   }
 
   .navbar + & {
-    margin-top: -20px;
+    margin-top: 20px;
   }
 
   .lang-logo {
