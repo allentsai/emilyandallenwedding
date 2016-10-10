@@ -59,6 +59,9 @@ body {
       background-position-y: -250px;
       background-attachment: fixed;
       height: calc(100vh + 50px);
+      .content-white {
+        height: auto;
+      }
     }
 
   }
