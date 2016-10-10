@@ -43,10 +43,6 @@ body {
 
   #no1 {
     .bg {
-      /* Set rules to fill background */
-      /* Set up positioning */
-//      top: 0;
-//      left: 0;
       background-image: image-url('allenemilyjapan.JPG');
       background-position-y: -200px;
       background-attachment: fixed;
@@ -93,12 +89,13 @@ body {
       .container {
         display: block;
         padding-top: 30px;
+        padding-bottom: 136px;
       }
-//      color: black;
       .photo {
         height:231px;
-        background-size:contain;
+        background-size:cover;
         background-repeat: no-repeat;
+        margin: 20px;
       }
       #photo01 {
         background-image: image-url('thumb01-min.JPG');

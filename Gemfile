@@ -41,3 +41,4 @@ gem 'puma'
 # gem 'debugger', group: [:development, :test]
 
 gem 'skrollr-rails'
+gem 'lightbox2-rails'

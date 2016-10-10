@@ -15,6 +15,7 @@
 //= require turbolinks
 //= require skrollr
 //= require_tree .
+//= stub footer
 
 $(document).ready(function () {
     var s = skrollr.init();
