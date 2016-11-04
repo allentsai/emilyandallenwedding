@@ -84,8 +84,12 @@ body {
 
   #photos {
     .bg {
-      background-color: #02321B;
       padding-top: 136px;
+      .custom {
+        h1 {
+          color: black;
+        }
+      }
       .container {
         display: block;
         padding-top: 30px;
@@ -143,6 +147,10 @@ body {
       padding-top: 136px;
       color: black;
     }
+    .test {
+      width: 100px;
+      height: 100px;
+    }
   }
 
   #no4 {
@@ -176,7 +184,6 @@ body {
       margin: -15% 0 0 -25%;
       height: 30%;
       width: 50%;
-      box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
       h2, h3 {
         color: black;
       }

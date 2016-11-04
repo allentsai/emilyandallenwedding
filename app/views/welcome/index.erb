@@ -1,54 +1,107 @@
-<img src="https://static.squarespace.com/static/53c827a3e4b00a63fc062eb5/t/53e162e7e4b0354da305ca8b/1407279847916/DSC07168.jpg" class="bg"/>
-<div class="jumbotron text-center">
-  <div class="container">
-    <a href="/" class="lang-logo">
-      <img src="<%= asset_path('lang-logo.png') %>">
-    </a>
-    <div class="vert-center">
-        <h1>Happy Days</h1>
-        <p>Allen and Emily are getting married.  Whaaaaat?</p>
+<div class="jumbotron text-center" id="no1">
+    <div class="bg">
+        <div class="container"
+            data-top-top="opacity:1;"
+            data-center-bottom="opacity:0;">
+            <div class="vert-center">
+                <h1 class="text-align-center">We're getting married</h1>
+                <h3>San Francisco</h3>
+            </div>
+        </div>
     </div>
-  </div>
 </div>
-<div class="container">
-  <div class="alert alert-info text-center" role="alert">
-    We should really figure out how to get a picture in here.
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-md-6">
-      <h3><span class="glyphicon glyphicon-info-sign"></span> How this sample app works</h3>
-      <ul>
-        <li>This app was deployed to Heroku, either using Git or by using <a href="https://github.com/heroku/ruby-getting-started">Heroku Button</a> on the repository.</li>
+<div id="no2" class="jumbotron text-center"
+data-center-top="opacity:0;" data-center="opacity:1;" data-center-bottom="opacity:0;"
+    data-anchor-target="#no2"
+    >
+    <div class="bg">
+        <div class="custom">
+            <div class="content-white">
+                <h2>Save The Date</h2>
+                <h3>March 10, 2017</h3>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="jumbotron text-center" id="no3"
+    data-center="background-position: 50% 0px;"
+    data-top-bottom="background-position: 50% -100px;"
+    data-anchor-target="#no3">
+    <div class="bg">
+        <div class="custom">
+            <div class="content-white">
+                <h2>Wedding Details</h2>
+                <h3>Ceremony</h3>
+                <h3>Reception</h3>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="jumbotron text-center" id="accomo">
+    <div class="bg">
+        <div class="custom">
+            <h1>Accommodations</h2>
+            <h3>Accommodation information to go here.</h3>
+        </div>
+    </div>
+</div>
+<div class="jumbotron text-center"  id="photos">
+    <div class="bg">
+        <div class="custom">
+            <h1>Photos</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <%= link_to raw('<div class="photo" id="photo01"></div>'), image_path("thumb01-min.JPG"), :data => {:lightbox => "photos"} %>
+                    </div>
+                    <div class="col-xs-3">
+                        <%= link_to raw('<div class="photo" id="photo02"></div>'), image_path("thumb02-min.JPG"), :data => {:lightbox => "photos"} %>
+                    </div>
+                    <div class="col-xs-3">
+                        <%= link_to raw('<div class="photo" id="photo03"></div>'), image_path("thumb03-min.JPG"), :data => {:lightbox => "photos"} %>
+                    </div>
+                    <div class="col-xs-3">
+                        <%= link_to raw('<div class="photo" id="photo04"></div>'), image_path("thumb04-min.JPG"), :data => {:lightbox => "photos"} %>
+                    </div>
+                    <div class="col-xs-3">
+                        <%= link_to raw('<div class="photo" id="photo05"></div>'), image_path("thumb05-min.JPG"), :data => {:lightbox => "photos"} %>
+                    </div>
+                    <div class="col-xs-3">
+                        <%= link_to raw('<div class="photo" id="photo06"></div>'), image_path("thumb06-min.JPG"), :data => {:lightbox => "photos"} %>
+                    </div>
+                    <div class="col-xs-3">
+                        <%= link_to raw('<div class="photo" id="photo07"></div>'), image_path("thumb07-min.JPG"), :data => {:lightbox => "photos"} %>
+                    </div>
+                    <div class="col-xs-3">
+                        <%= link_to raw('<div class="photo" id="photo08"></div>'), image_path("thumb08-min.JPG"), :data => {:lightbox => "photos"} %>
+                    </div>
+                    <div class="col-xs-3">
+                        <%= link_to raw('<div class="photo" id="photo09"></div>'), image_path("thumb09-min.JPG"), :data => {:lightbox => "photos"} %>
+                    </div>
+                    <div class="col-xs-3">
+                        <%= link_to raw('<div class="photo" id="photo10"></div>'), image_path("thumb10-min.jpg"), :data => {:lightbox => "photos"} %>
+                    </div>
+                    <div class="col-xs-3">
+                        <%= link_to raw('<div class="photo" id="photo11"></div>'), image_path("thumb11-min.JPG"), :data => {:lightbox => "photos"} %>
+                    </div>
+                    <div class="col-xs-3">
+                        <%= link_to raw('<div class="photo" id="photo12"></div>'), image_path("thumb12-min.JPG"), :data => {:lightbox => "photos"} %>
+                    </div>
 
-        <li>When Heroku received the source code, it fetched all the dependencies in the <a href="https://github.com/heroku/ruby-getting-started/blob/master/Gemfile">Gemfile</a>, creating a deployable slug.</li>
-        <li>The platform then spins up a dyno, a lightweight container that provides an isolated environment in which the slug can be mounted and executed.</li>
-        <li>You can scale your app, manage it, and deploy over <a href="https://addons.heroku.com/">150 add-on services</a>, from the Dashboard or CLI.</li>
-      </ul>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="col-md-6">
-      <h3><span class="glyphicon glyphicon-link"></span> Next Steps</h3>
-      <ul>
-        <li>If you are following the <a href="https://devcenter.heroku.com/articles/getting-started-with-ruby">Getting Started</a> guide, then please head back to the tutorial and follow the next steps!</li>
-        <li>If you deployed this app by deploying the Heroku Button, then in a command line shell, run:</li>
-        <ul>
-          <li><code>git clone https://github.com/heroku/ruby-getting-started.git</code> - this will create a local copy of the source code for the app</li>
-          <li><code>cd ruby-getting-started</code> - change directory into the local source code repository</li>
-          <li><code>heroku git:remote -a &lt;your-app-name></code> - associate the Heroku app with the repository</li>
-          <li>You'll now be set up to run the app locally, or <a href="https://devcenter.heroku.com/articles/getting-started-with-ruby#push-local-changes">deploy changes</a> to Heroku</li>
-        </ul>
-      </ul>
-      <h3><span class="glyphicon glyphicon-link"></span> Helpful Links</h3>
-      <ul>
-        <li><a href="https://www.heroku.com/home">Heroku</a></li>
-        <li><a href="https://devcenter.heroku.com/">Heroku Dev Center</a></li>
-        <li><a href="https://devcenter.heroku.com/articles/getting-started-with-ruby">Getting Started with Ruby on Heroku</a></li>
-        <li><a href="https://devcenter.heroku.com/articles/deploying-ruby-and-rails">Deploying Ruby Apps on Heroku</a></li>
-        <li><a href="https://devcenter.heroku.com/articles/getting-started-with-jruby">Getting Started with Ruby on Heroku (Microsoft Windows)</a></li>
-      </ul>
+</div>
+<div class="jumbotron text-center"  id="registry">
+    <div class="bg">
+        <div class="custom">
+            <h1>Registry</h1>
+            <div class="custom">
+                <div>
+                    <%= link_to image_tag("rh-logo-black.svg"), "https://www.restorationhardware.com/storefront/gift-registry/gift-list.jsp?giftlistId=gl1212053894"%>
+                </div>
+             </div>
+        </div>
     </div>
-  </div> <!-- row -->
-   <div class="alert alert-info text-center" role="alert">
-    Please do work through the Getting Started guide, even if you do know how to build such an application.  The guide covers the basics of working with Heroku, and will familiarize you with all the concepts you need in order to build and deploy your own apps.
-  </div>
 </div>
