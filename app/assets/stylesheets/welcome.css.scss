@@ -16,9 +16,10 @@ body {
   font-family: Lato, Arial, sans-serif;
 
   h1, h2 {
-    font-family: 'Open Sans', "futura-pt", Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, UniversalisADFStdRegular, "URW Gothic L", "Avant Garde", sans-serif;
-    font-weight: bold;
+    font-family: 'Montserrat', 'Open Sans', "futura-pt", Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, UniversalisADFStdRegular, "URW Gothic L", "Avant Garde", sans-serif;
+    font-weight: lighter;
     text-transform: uppercase;
+    letter-spacing: 4px;
   }
   h3 {
     font-family: Arvo, 'Arvo';
@@ -65,6 +66,17 @@ body {
   #no3 {
     .bg {
       background-image: image-url('bigsurpic-min.jpg');
+      background-attachment: fixed;
+      height: calc(100vh + 50px);
+      .content-white {
+        height: auto;
+      }
+    }
+  }
+
+  #cityhall {
+    .bg {
+      background-image: image-url('labyrinth.JPG');
       background-attachment: fixed;
       height: calc(100vh + 50px);
       .content-white {
@@ -190,6 +202,16 @@ body {
       }
       h2 {
         width: 100%;
+      }
+      h3.bold {
+        margin-top: 2.5em;
+        font-weight: bold;
+      }
+      h3.spacey {
+        margin-top: 2.5em;
+      }
+      p {
+        margin:0 auto 0;
       }
     }
     .registry-logo {
