@@ -55,30 +55,27 @@ body {
       background-image: image-url('japnforestpic-min.jpg');
       background-position-y: -250px;
       background-attachment: fixed;
-      height: calc(100vh + 50px);
       .content-white {
         height: auto;
       }
     }
 
-  }
-
-  #no3 {
-    .bg {
-      background-image: image-url('bigsurpic-min.jpg');
-      background-attachment: fixed;
-      height: calc(100vh + 50px);
-      .content-white {
-        height: auto;
-      }
-    }
   }
 
   #cityhall {
     .bg {
       background-image: image-url('labyrinth.JPG');
       background-attachment: fixed;
-      height: calc(100vh + 50px);
+      .content-white {
+        height: auto;
+      }
+    }
+  }
+
+  #no3 {
+    .bg {
+      background-image: image-url('bigsurpic-min.jpg');
+      background-attachment: fixed;
       .content-white {
         height: auto;
       }
@@ -107,11 +104,15 @@ body {
         padding-top: 30px;
         padding-bottom: 136px;
       }
+      .col-xs-3 {
+        padding-left: 2px;
+        padding-right: 2px;
+      }
       .photo {
         height:231px;
         background-size:cover;
         background-repeat: no-repeat;
-        margin: 20px;
+        margin: 5px 1px;
       }
       #photo01 {
         background-image: image-url('thumb01-min.JPG');
@@ -186,16 +187,34 @@ body {
     width: 100%;
     position:relative;
     background-color: inherit;
+    .content-normal {
+      vertical-align: middle;
+      text-align: center;
+      padding:5%;
+      margin: 25% 0% 25% 0%;
+      h2, h3 {
+        color: black;
+      }
+      h2 {
+        width: 100%;
+      }
+      h3.bold {
+        margin-top: 2.5em;
+        font-weight: bold;
+      }
+      h3.spacey {
+        margin-top: 2.5em;
+      }
+      p {
+        margin:0 auto 0;
+      }
+    }
     .content-white {
-      top: 50%;
-      left: 50%;
-      position:absolute;
       background-color: white;
       vertical-align: middle;
       text-align: center;
-      padding:100px;
-      margin: -15% 0 0 -25%;
-      height: 30%;
+      padding:5%;
+      margin: 25% 0% 25% 25%;
       width: 50%;
       h2, h3 {
         color: black;
