@@ -85,7 +85,6 @@ body {
   #accomo {
     .bg {
       background-color: #FCE9F2;
-      padding-top: 136px;
       color: black;
     }
   }
@@ -166,24 +165,7 @@ body {
     }
   }
 
-  #no4 {
-    height: 120vh;
-    width: 100%;
-    background-image: image-url('heart.jpg');
-    display: table;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    h2 {
-      display: table-cell;
-      vertical-align: middle;
-      text-align: center;
-    }
-  }
-
   .custom {
-    height: 100%;
     width: 100%;
     position:relative;
     background-color: inherit;
@@ -191,7 +173,7 @@ body {
       vertical-align: middle;
       text-align: center;
       padding:5%;
-      margin: 25% 0% 25% 0%;
+      margin: 10% 0% 25% 0%;
       h2, h3 {
         color: black;
       }
