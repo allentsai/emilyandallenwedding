@@ -84,7 +84,7 @@ body {
 
   #accomo {
     .bg {
-      background-color: #FCE9F2;
+      background-color: white;
       color: black;
     }
   }
@@ -173,7 +173,7 @@ body {
       vertical-align: middle;
       text-align: center;
       padding:5%;
-      margin: 10% 0% 25% 0%;
+      margin: 15% 0% 15% 0%;
       h2, h3 {
         color: black;
       }
@@ -184,8 +184,19 @@ body {
         margin-top: 2.5em;
         font-weight: bold;
       }
-      h3.spacey {
+      h3.montserrat {
+        font-family: Montserrat, sans-serif;
+      }
+      p.arvo {
+        font-family: Arvo, sans-serif;
+        color: black;
+        padding-top: 5%;
+      }
+      .spacey {
         margin-top: 2.5em;
+      }
+      .small-spacey {
+        margin-top: 1em;
       }
       p {
         margin:0 auto 0;

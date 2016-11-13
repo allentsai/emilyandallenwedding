@@ -65,9 +65,35 @@ data-center-top="opacity:0;" data-center="opacity:1;" data-center-bottom="opacit
     <div class="bg">
         <div class="custom">
             <div class="content-normal">
-                <h1>Accommodations</h2>
-                <h3>Accommodation information to go here.</h3>
+                <h1>Accommodations</h1>
+                <h3 class="montserrat">
+                    Since our wedding and ceremony will take place in downtown San Francisco, we recommend booking accommodations in SF's Union Square or Financial District.
+                </h3>
+                <p class="arvo">We recommend the following:</p>
+                <p><%= link_to "Palace Hotel", "http://www.sfpalace.com/" %>: 2 New Montgomery Street</p>
+                <p><%= link_to "Parc 55", "http://www.parc55hotel.com/" %>: 55 Cyril Magnin Street</p>
+                <p><%= link_to "W San Francisco", "http://www.wsanfrancisco.com/" %>: 181 3rd Street</p>
+                <p><%= link_to "The Westin St. Francis", "http://westinstfrancis.com/" %>: 335 Powell Street</p>
+                <h1 class="small-spacey">Getting Around</h1>
+                <h3 class="montserrat">
+                    You can arrive to our lunch reception (from the ceremony location) by way of: SF public transportation (Muni), Bay Area public transportation (BART), or by private vehicle (i.e., Uber, Lyft).
+                </h3>
+                <p class="arvo">Please use the ingenious tool Google Maps for detailed explanation in case you are confused.</p>
+
             </div>
+        </div>
+    </div>
+</div>
+<div class="jumbotron text-center"  id="registry">
+    <div class="bg">
+        <div class="custom">
+            <h1>Registry</h1>
+            <p class="arvo">If you desire to give us a gift, we have a preference for monetary presents at this time, as this will help us save up for our home and future.</p>
+            <p class="arvo">For purposes of wedding tradition, we are, however, also registered at the following stores:</p>
+            <div class="registry-logo">
+                <%= link_to image_tag("rh-logo-black.svg", :class => "logo"), "https://www.restorationhardware.com/storefront/gift-registry/gift-list.jsp?giftlistId=gl1212053894"%>
+            </div>
+
         </div>
     </div>
 </div>
@@ -116,18 +142,6 @@ data-center-top="opacity:0;" data-center="opacity:1;" data-center-bottom="opacit
 
                 </div>
             </div>
-        </div>
-    </div>
-</div>
-<div class="jumbotron text-center"  id="registry">
-    <div class="bg">
-        <div class="custom">
-            <h1>Registry</h1>
-
-            <div class="registry-logo">
-                <%= link_to image_tag("rh-logo-black.svg", :class => "logo"), "https://www.restorationhardware.com/storefront/gift-registry/gift-list.jsp?giftlistId=gl1212053894"%>
-            </div>
-
         </div>
     </div>
 </div>
