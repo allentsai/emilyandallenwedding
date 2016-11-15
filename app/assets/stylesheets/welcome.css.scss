@@ -30,7 +30,7 @@ body {
 
   .bg {
     /* Set up proportionate scaling */
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     .container {
       display: table-cell;
@@ -146,10 +146,6 @@ body {
       background-color: #FCE9F2;
       padding-top: 136px;
       color: black;
-    }
-    .test {
-      width: 100px;
-      height: 100px;
     }
   }
 
