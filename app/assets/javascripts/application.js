@@ -19,7 +19,14 @@
 
 $(document).ready(function () {
     if ($(window).width() > 767) {
-        skrollr.init();
+        skrollr.init(
+            {
+                mobileCheck: function() {
+                    //hack - forces mobile version to be off
+                    return false;
+                }
+            }
+        );
     }
 
     // disable skrollr if the window is resized below 768px wide
