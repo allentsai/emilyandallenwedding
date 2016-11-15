@@ -255,7 +255,9 @@ body {
 }
 
 @media screen and (max-device-width: 480px) {
-  .bg {
-    background-attachment: scroll;
+  body {
+    .bg {
+      background-attachment: scroll;
+    }
   }
 }
