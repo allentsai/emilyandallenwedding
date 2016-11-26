@@ -1,3 +1,17 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar navbar-right" id="navbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#cityhall">Ceremony</a></li>
+                <li><a href="#no3">Reception</a></li>
+                <li><a href="#accomo">Accomodations</a></li>
+                <li><a href="#registry">Registry</a></li>
+                <li><a href="#photos">Photos</a></li>
+                <li><a href="#sights">SF Sights</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
 <div id="skrollr-body"></div>
 <div class="jumbotron text-center" id="no1">
     <div class="bg">
@@ -63,7 +77,7 @@ data-center-top="opacity:0;" data-center="opacity:1;" data-center-bottom="opacit
     </div>
 </div>
 <div class="jumbotron text-center" id="accomo">
-    <div class="bg">
+    <div class="bg" style="background-color: #FCE9F2;">
         <div class="custom">
             <div class="content-normal">
                 <h1>Accommodations</h1>
@@ -88,13 +102,48 @@ data-center-top="opacity:0;" data-center="opacity:1;" data-center-bottom="opacit
 <div class="jumbotron text-center"  id="registry">
     <div class="bg">
         <div class="custom">
-            <h1>Registry</h1>
-            <p class="arvo">If you desire to give us a gift, we have a preference for monetary presents at this time, as this will help us save up for our home and future.</p>
-            <p class="arvo">For purposes of wedding tradition, we are, however, also registered at the following stores:</p>
-            <div class="registry-logo">
-                <%= link_to image_tag("rh-logo-black.svg", :class => "logo"), "https://www.restorationhardware.com/storefront/gift-registry/gift-list.jsp?giftlistId=gl1212053894"%>
+            <div class="content-normal">
+                <h1>Registry</h1>
+                <p class="arvo">If you desire to give us a gift, we have a preference for monetary presents at this time, as this will help us save up for our home and future.</p>
+                <p class="arvo">For purposes of wedding tradition, we are, however, also registered at the following stores:</p>
+                <div class="registry-logo">
+                    <%= link_to image_tag("rh-logo-black.svg", :class => "logo"), "https://www.restorationhardware.com/storefront/gift-registry/gift-list.jsp?giftlistId=gl1212053894"%>
+                </div>
             </div>
-
+        </div>
+    </div>
+</div>
+<div class="jumbotron text-center"  id="sights">
+    <div class="bg">
+        <div class="custom">
+            <div class="content-normal">
+                <h1>Sights</h1>
+                <p class="arvo">We LOVE San Francisco!  While you're visiting, we suggest checking out the following restaurants and sights.  You really could eat your way through the city...</p>
+                <h2>Restaurants & Eateries</h2>
+                <ul class="unstyled">
+                    <li>Plow - for really delicious brunch.  If you're single, you might even meet your soulmate here!  This is where we had our VERY FIRST date. (Portero Hill, $$)</li>
+                    <li>The House - excellent Asian fusion dinner. (North Beach, $$)</li>
+                    <li>Ha Nam Ninh - Delicious "dry pho". (Tenderloin, $)</li>
+                    <li>Nick's Crispy Tacos - Get the pescado, Nick's way. (North Beach, $$)</li>
+                    <li>Mensho SF - Quite possibly the best ramen in the US.  Prepare for a wait! (Tendernob, $$)</li>
+                    <li>Blue Barn - Healthy and delicious salads. (Russian Hill, Marina/Cow Hollow, $)</li>
+                    <li>Philz Coffee - Get the Mint Mojito, Philz's signature drink. (TL, SoMA, $)</li>
+                    <li>Blue Bottle Coffee - More coffee</li>
+                    <li>Sightglass Coffee - More coffee</li>
+                    <li>Boba Guys - Best place in town for boba. (Mission, Hayes Valley, $)</li>
+                    <li>Mr. and Mrs. Miscellaneous - artisanal ice cream. (Dogpatch, $) </li>
+                    <li>Bi-Rite Ice Cream - famous ice cream. (NoPa, Mission, $) </li>
+                    <li>Loving Cup - rice pudding! (Hayes Valley, Russian Hill/North Beach, $)</li>
+                </ul>
+                <h2>Things to Do & Places to See</h2>
+                <ul class="unstyled">
+                    <li>Golden Gate Park</li>
+                    <li>Lovers Lane/Presidio</li>
+                    <li>Fisherman's Wharf & Alcatraz Island (get tickets in advance!)</li>
+                    <li>Dolores Park</li>
+                    <li>Painted Ladies/Alamo Square</li>
+                </ul>
+            </div>
         </div>
     </div>
 </div>

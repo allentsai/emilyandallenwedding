@@ -28,6 +28,18 @@ body {
     font-size: 19px;
   }
 
+  .navbar.navbar-default.navbar-fixed-top {
+    background-color: rgba(255, 255, 255, 0.75);
+    border-style: none;
+    text-transform: uppercase;
+  }
+
+  #navbar {
+    margin-bottom: 0px;
+    font-family: 'Montserrat', 'Open Sans', "futura-pt", Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, UniversalisADFStdRegular, "URW Gothic L", "Avant Garde", sans-serif;
+    border-style: none;
+  }
+
   .bg {
     /* Set up proportionate scaling */
     width: 100%;
@@ -76,7 +88,6 @@ body {
       color: black;
     }
   }
-
 
   #photos {
     .bg {
@@ -143,7 +154,8 @@ body {
 
   #registry {
     .bg {
-      background-color: #FCE9F2;
+      background-color: #f2fce9;
+
       padding-top: 136px;
       color: black;
     }
@@ -151,7 +163,7 @@ body {
 
   #sights {
     .bg {
-      background-color: #f2fce9;
+      background-color: #FCE9F2;
     }
   }
 

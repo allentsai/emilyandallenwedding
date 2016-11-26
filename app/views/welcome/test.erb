@@ -1,3 +1,17 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar navbar-right" id="navbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#cityhall">Ceremony</a></li>
+                <li><a href="#no3">Reception</a></li>
+                <li><a href="#accomo">Accomodations</a></li>
+                <li><a href="#registry">Registry</a></li>
+                <li><a href="#photos">Photos</a></li>
+                <li><a href="#sights">SF Sights</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
 <div id="skrollr-body"></div>
 <div class="jumbotron text-center" id="no1">
     <div class="bg">
@@ -85,6 +99,20 @@ data-center-top="opacity:0;" data-center="opacity:1;" data-center-bottom="opacit
         </div>
     </div>
 </div>
+<div class="jumbotron text-center"  id="registry">
+    <div class="bg">
+        <div class="custom">
+            <div class="content-normal">
+                <h1>Registry</h1>
+                <p class="arvo">If you desire to give us a gift, we have a preference for monetary presents at this time, as this will help us save up for our home and future.</p>
+                <p class="arvo">For purposes of wedding tradition, we are, however, also registered at the following stores:</p>
+                <div class="registry-logo">
+                    <%= link_to image_tag("rh-logo-black.svg", :class => "logo"), "https://www.restorationhardware.com/storefront/gift-registry/gift-list.jsp?giftlistId=gl1212053894"%>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="jumbotron text-center"  id="sights">
     <div class="bg">
         <div class="custom">
@@ -116,19 +144,6 @@ data-center-top="opacity:0;" data-center="opacity:1;" data-center-bottom="opacit
                     <li>Painted Ladies/Alamo Square</li>
                 </ul>
             </div>
-        </div>
-    </div>
-</div>
-<div class="jumbotron text-center"  id="registry">
-    <div class="bg">
-        <div class="custom">
-            <h1>Registry</h1>
-            <p class="arvo">If you desire to give us a gift, we have a preference for monetary presents at this time, as this will help us save up for our home and future.</p>
-            <p class="arvo">For purposes of wedding tradition, we are, however, also registered at the following stores:</p>
-            <div class="registry-logo">
-                <%= link_to image_tag("rh-logo-black.svg", :class => "logo"), "https://www.restorationhardware.com/storefront/gift-registry/gift-list.jsp?giftlistId=gl1212053894"%>
-            </div>
-
         </div>
     </div>
 </div>
